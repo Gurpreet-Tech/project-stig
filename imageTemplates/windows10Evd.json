@@ -57,13 +57,19 @@
             "vmSize": "Standard_D1_v2",
             "osDiskSizeGB": 127
           },
-          "source": {
+          /* "source": {
             "type": "PlatformImage",
             "publisher": "MicrosoftWindowsDesktop",
             "offer": "office-365",
             "sku": "20h1-evd-o365pp",
             "version": "latest"
-          },
+          }, */
+
+           "source": { 
+            "type": "ManagedImage", 
+                "imageId": "/subscriptions/a7683da3-da60-4afb-a44f-c67c65ed8e46/resourceGroups/Restore-vm/providers/Microsoft.Compute/images/restored-vm-image"
+        },
+        
           "customize": [
             {
                 "type": "PowerShell",
