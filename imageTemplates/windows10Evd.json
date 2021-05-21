@@ -67,7 +67,7 @@
 
            "source": { 
             "type": "ManagedImage", 
-                "imageId": "/subscriptions/a7683da3-da60-4afb-a44f-c67c65ed8e46/resourceGroups/Restore-vm/providers/Microsoft.Compute/images/restored-vm-image"
+                "imageId": "/subscriptions/33f54b1a-4fe1-48e7-a244-749432f74000/resourceGroups/ImageExertion/providers/Microsoft.Compute/disks/prodwnvm0-osdisk-20210519-215707"
         },
         
           "customize": [
